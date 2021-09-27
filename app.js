@@ -49,7 +49,7 @@ io.on("connection", function (socket) {
   });
 });
 
-var port = process.env.PORT || 8000;
+var port = process.env.PORT || 5052;
 http.listen(port, function () {
-  console.log(`listening on *:8000`);
+  console.log(`listening on *:5052`);
 });
